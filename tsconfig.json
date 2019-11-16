@@ -24,6 +24,12 @@
       ],
       "post/*": [
         "dist/post/*"
+      ],
+      "auth": [
+        "dist/auth"
+      ],
+      "auth/*": [
+        "dist/auth/*"
       ]
     }
   },

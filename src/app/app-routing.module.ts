@@ -12,6 +12,11 @@ const routes: Routes = [
     path: 'welcome',
     loadChildren: () =>
       import('./pages/welcome/welcome.module').then(m => m.WelcomeModule)
+  },
+  {
+    path: 'auth',
+    loadChildren: () =>
+      import('../../projects/auth/src/public-api').then(m => m.AuthModule)
   }
 ];
 
